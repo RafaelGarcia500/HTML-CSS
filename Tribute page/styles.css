@@ -48,6 +48,7 @@ img{
     flex-direction: column-reverse;
     height: 1000px;
     width: 1000px;
+    padding-left: 150px;
     }
 
 .timeline{
@@ -80,4 +81,8 @@ a{
 
 ul{
     list-style-type: none;
+}
+
+.death{
+    text-align: center;
 }
