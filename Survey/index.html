@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+ <h1 id="header">The "Annoyed" Form </h1>
+  <div class="container">
+   <h2 id="h2">Tell me about yourself including something terrible,annoying or "calm breaking" that had happened to you in this little Survey below.</h2>
+     <form>
+    <div class="input">
+      <p>Name</p>
+      <input type="text" placeholder="Enter your name" id="name">
+    </div>
+    <div class="email">
+      <p>Email</p>
+      <input type="email" placeholder="Please tell us your Email " id="email">
+    </div>
+    <div class="select">
+      <p>Where are your horrible experiences usually located?</p>
+      <select name="location" id="places">
+          <option value="At home">At home</option>
+          <option value="My Job">My Job</option>
+          <option value="At School">At School</option>
+          <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="numbers">
+      <p>Tell me based on a number how much you were annoyed by something today or any other day.</p>
+      <input type="number" placeholder="up to 100" min="1" max="100" id="number">
+    </div>
+    <div class="lists">
+      <p>When do you usually feel tired?</p>
+       <ul>
+        <li><label><input name="time-radio" type="radio" value="1">At night</label></li>
+        <li><label><input name="time-radio" type="radio" value="1">In the morning</label></li>
+        <li><label><input name="time-radio" type="radio" value="1">During the afternoon</label></li>
+       </ul>
+      <p>Where do you usually go to feel better?</p>
+        <ul>
+         <li><label><input name="feeling-check" type="checkbox" value="1">To Bed</label></li>
+         <li><label><input name="feeling-check" type="checkbox" value="1">To a Friends home</label></li>
+         <li><label><input name="feeling-check" type="checkbox" value="1"> To play with my pets</label></li>
+         <li><label><input name="feeling-check" type="checkbox" value="1"> Other</label></li>
+        </ul>
+    </div>
+     <div class="text">
+      <p>Write us about specifically something that has bothered you a lot</p>
+       <textarea id="comment" name="user_message" rows="4" cols="50" placeholder="Write us here"></textarea>
+        <button id="submit">Submit</button>
+     </div>
+   </div>
+    </form>
+  <footer>
+      <p>Written and coded by <a href="https://github.com/Rafa628?tab=repositories">Rafael Garcia</a></p>
+  </footer>
+
+
+    
+</body>
+</html>
