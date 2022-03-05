@@ -1,2 +1,3 @@
 # HTML/CSS
-These are my Html-Css-only projects
+These are my Html-Css-only ideas
+
